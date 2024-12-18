@@ -54,7 +54,20 @@ _key methods_
 - The output is taken from timestep t=0 to timestep t=1500
 - input_image is also provided in the repo
 - **At t=0**
+  
        ![OutputImaget0](https://github.com/Sabari231024/Diffusion-models/blob/main/DDPM/output/opt0.png?raw=true)
+
+  **At t=50**
+
+       ![OutputImaget0](https://github.com/Sabari231024/Diffusion-models/blob/main/DDPM/output/opt50.png?raw=true)
+
+  **At t=500**
+
+       ![OutputImaget0](https://github.com/Sabari231024/Diffusion-models/blob/main/DDPM/output/opt500.png?raw=true)
+
+  **At t=1000**
+
+       ![OutputImaget0](https://github.com/Sabari231024/Diffusion-models/blob/main/DDPM/output/opt1000.png?raw=true)
 
 
   
