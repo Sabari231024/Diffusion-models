@@ -5,7 +5,9 @@ This repo consist of modules,files,training lopp and inference for the diffusion
 **Objective** : The objective of the this repo is to learn , build and train diffusion models
 
 ## DDPM(Denoising Diffusion probabilistic Model)
+
 **Modules**::
+
 **1.Dataset.py**:
 - Supports three datasets: MNIST, FashionMNIST, and CIFAR10.
 - Downloads and transforms the dataset:
@@ -13,9 +15,11 @@ This repo consist of modules,files,training lopp and inference for the diffusion
      - Pads grayscale images (MNIST/FashionMNIST) to 32x32.
      - Normalizes images to the range [-1, 1].
 - Implements __len__ to get dataset size and __getitem__ to fetch and process individual images.
+  
 **2.Unet.py**
 - Provides a U-Net architecture used in diffusion models for denoising or predicting the noise added to the image at each timestep.
 - The U-Net helps process images through downsampling and upsampling paths to capture both global context and fine-grained details, making it effective for learning latent representations and performing accurate conditioning in diffusion models.
+  
 **3.DiffusionModel.py**
 - Base Class:
       - This class extends pl.LightningModule (from PyTorch Lightning), making it compatible with Lightning's training loops, logging, and optimization handling.
@@ -51,4 +55,5 @@ _key methods_
 - input_image is also provided in the repo
   
 **Tags:** `Pytorch`, `Diffusion`,'pl-lightning Modelule'
+
 **Author:** Sabari Srinivas  
