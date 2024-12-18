@@ -54,7 +54,9 @@ _key methods_
 - The output is taken from timestep t=0 to timestep t=1500
 - input_image is also provided in the repo
 - **At t=0**
-       - ![outputt0](output/opt0.png)
+  
+       - ![OutputImaget0](https://github.com/Sabari231024/Diffusion-models/blob/main/DDPM/output/opt0.png?raw=true)
+
 
   
 **Tags:** `Pytorch`, `Diffusion`,'pl-lightning Modelule'
