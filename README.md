@@ -53,6 +53,9 @@ _key methods_
 **Sample Output**
 - The output is taken from timestep t=0 to timestep t=1500
 - input_image is also provided in the repo
+- **At t=0**
+       - ![outputt0](output/opt0.png)
+
   
 **Tags:** `Pytorch`, `Diffusion`,'pl-lightning Modelule'
 
