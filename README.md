@@ -22,7 +22,6 @@ This repo consist of modules,files,training lopp and inference for the diffusion
 - Components:
       - U-Net Backbone:
           - The model uses a U-Net architecture to predict noise at each timestep. The U-Net parameters can be customized (e.g., depth, dimensionality).
-
       - Beta Scheduling:
           - Implements a linear variance schedule with beta_small and beta_large, defining the noise level for each timestep t.
 _key methods_
@@ -37,12 +36,16 @@ _key methods_
  - Removes noise step-by-step, predicting a cleaner image at each timestep.
 - Training and Validation Steps: training_step(batch, batch_idx) and validation_step(batch, batch_idx) calculate the loss and log it during training and validation.
 - Optimizer: Uses the Adam optimizer with a learning rate of 2e-4.
+  
 **4.train.py**
 - This contains the Training loop required to build the Model
+  
 **5.Inference.py**
 - This contains the Inference loop required to build the model
+  
 **6.DDPM_Diffusion.ipynb**
 - colab training notebook for the module
+  
 **Sample Output**
 - The output is taken from timestep t=0 to timestep t=1500
 - input_image is also provided in the repo
